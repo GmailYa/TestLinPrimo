@@ -3,8 +3,6 @@
     <WorkflowType>0</WorkflowType>
     <IsTestCase>false</IsTestCase>
     <UseArgs>false</UseArgs>
-    <ColumnsTableTestData />
-    <RowsTableTestData />
     <ScriptType>CS</ScriptType>
     <RootContainer>
         <ClassName>LTools.Workflow.Elements.WFContainerSequence</ClassName>
@@ -82,8 +80,6 @@
                 <Value xsi:type="xsd:boolean">false</Value>
             </SerializationItem>
         </Properties>
-        <IsBreakpoint>false</IsBreakpoint>
-        <IsIgnore>false</IsIgnore>
         <Components>
             <SerializationComponent>
                 <ClassName>LTools.Workflow.Elements.WFAddToLog</ClassName>
@@ -92,7 +88,7 @@
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
                         <Name>Message</Name>
-                        <Value xsi:type="xsd:string">"Это версия V1"</Value>
+                        <Value xsi:type="xsd:string">"V1"</Value>
                     </SerializationItem>
                     <SerializationItem>
                         <IsListValue>false</IsListValue>
@@ -166,8 +162,6 @@
                         <Value xsi:type="xsd:boolean">false</Value>
                     </SerializationItem>
                 </Properties>
-                <IsBreakpoint>false</IsBreakpoint>
-                <IsIgnore>false</IsIgnore>
             </SerializationComponent>
         </Components>
     </RootContainer>
